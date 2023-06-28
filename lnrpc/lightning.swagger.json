@@ -1330,7 +1330,7 @@
             "in": "query",
             "required": false,
             "type": "string",
-            "format": "int64"
+            "format": "uint64"
           },
           {
             "name": "ignored_nodes",
@@ -4464,7 +4464,7 @@
         },
         "percent": {
           "type": "string",
-          "format": "int64",
+          "format": "uint64",
           "description": "The fee limit expressed as a percentage of the payment amount."
         }
       }

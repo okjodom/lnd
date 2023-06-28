@@ -772,7 +772,7 @@ message FeeLimit {
         int64 fixed_msat = 3;
 
         // The fee limit expressed as a percentage of the payment amount.
-        int64 percent = 2;
+        uint64 percent = 2;
     }
 }
 
